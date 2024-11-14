@@ -24,6 +24,10 @@ load.addEventListener('click', function() {
         console.log('Immagini:', data)
         for (let i = 0; i < imgArr.length; i++) {
             imgArr[i].setAttribute('src', data.photos[i].src.medium)
+        }
+        const idReplace = document.querySelectorAll('.text-muted')
+        for (let i = 0; i < idReplace.length; i++) {
+            idReplace[i].innerText = data.photos[i].id 
         }   
     })
     .catch((error) => {
@@ -52,6 +56,10 @@ load2.addEventListener('click', function() {
         for (let i = 0; i < imgArr.length; i++) {
             imgArr[i].setAttribute('src', data.photos[i].src.medium)
         }   
+        const idReplace = document.querySelectorAll('.text-muted')
+        for (let i = 0; i < idReplace.length; i++) {
+            idReplace[i].innerText = data.photos[i].id 
+        }
     })
     .catch((error) => {
         console.log('Errore', error)
