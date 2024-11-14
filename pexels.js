@@ -9,7 +9,7 @@ load.addEventListener('click', function() {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'GXr4WbmzLhPHglXzbTG5wW7oz4aarWFTia3W1HoR82B9zKe68QVIDxmm'
+            'Authorization': 'xxxxxxx'
         }
     })
     .then((response) => {
@@ -40,7 +40,7 @@ load2.addEventListener('click', function() {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'GXr4WbmzLhPHglXzbTG5wW7oz4aarWFTia3W1HoR82B9zKe68QVIDxmm'
+            'Authorization': 'xxxxxxx'
         }
     })
     .then((response) => {
