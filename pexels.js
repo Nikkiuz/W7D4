@@ -57,3 +57,15 @@ load2.addEventListener('click', function() {
         console.log('Errore', error)
     })
 })
+
+let btnHide = document.querySelectorAll('.btn-group button:nth-of-type(2)')
+console.log(btnHide)
+for (let i = 0; i < btnHide.length; i++) {
+    btnHide[i].innerText = 'Hide'
+    btnHide[i].addEventListener('click', function () {
+        const cards = document.querySelectorAll('.card')
+        cards[i].classList.add('invisible')
+    })
+}
+
+    
