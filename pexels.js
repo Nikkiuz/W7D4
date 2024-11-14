@@ -64,7 +64,7 @@ for (let i = 0; i < btnHide.length; i++) {
     btnHide[i].innerText = 'Hide'
     btnHide[i].addEventListener('click', function () {
         const cards = document.querySelectorAll('.card')
-        cards[i].classList.add('invisible')
+        cards[i].classList.add('d-none')
     })
 }
 
