@@ -1,5 +1,5 @@
-const link = 'https://api.pexels.com/v1/search?query=[your-query]'
-const link2 = 'https://api.pexels.com/v1/search?query=[your-secondary-query]'
+const link = 'https://api.pexels.com/v1/search?query=lazio'
+const link2 = 'https://api.pexels.com/v1/search?query=dogs'
 
 const load = document.getElementById('loadBtn')
 const load2 = document.getElementById('loadBtn2')
